@@ -1,18 +1,19 @@
+Programming
+Coding
+Software
 Hardware
 Firmware
+Cloud
+Server
+Client
+Internet
+DNS
 CLI
 Version Control
 Git
 Agile
 Scrum
 Kanban
-Cloud
-Server
-Client
-Internet
-DNS
-Programming
-Coding
 Application
 Layer
 Network
@@ -46,3 +47,4 @@ Boosted Decision Tree
 Artificial Neural Network
 Deep Learning
 Data Science
+Robot
