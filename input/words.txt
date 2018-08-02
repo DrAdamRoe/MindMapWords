@@ -1,0 +1,48 @@
+Hardware
+Firmware
+CLI
+Version Control
+Git
+Agile
+Scrum
+Kanban
+Cloud
+Server
+Client
+Internet
+DNS
+Programming
+Coding
+Application
+Layer
+Network
+Python
+Javascript
+C++
+Docker
+Container
+Database
+SQL
+Relational Database
+NoSQL
+IDE
+GitHub
+GUI
+Browser
+Function
+Data Type
+Class
+DevOps
+Process
+Framework
+Bash
+Z shell
+Boolean
+CPU
+GPU
+Machine Learning
+Artifical Intelligence
+Boosted Decision Tree
+Artificial Neural Network
+Deep Learning
+Data Science
