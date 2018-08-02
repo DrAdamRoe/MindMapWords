@@ -6,6 +6,7 @@
 # import style adapted from solution 7 https://stackoverflow.com/questions/2349991/how-to-import-other-python-files
 
 from genHTML import genHTML
+from genSinglePDF import genSinglePDF
 
 
 # read in external text file line by line.
@@ -22,6 +23,8 @@ def getWords(filename):
 def main():
     words_list = getWords("input/words.txt")
     genHTML(words_list)
+    for word in words_list:
+        genSinglePDF(word)
 
 if __name__== "__main__":
     main()
