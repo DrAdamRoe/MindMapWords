@@ -37,7 +37,7 @@ DevOps
 Process
 Framework
 Bash
-Z shell
+Shell
 Boolean
 CPU
 GPU
@@ -72,8 +72,10 @@ GPL
 MIT License
 Authentication
 Authorization
-Authorization
-Authorization
-
+Pixel
+Image
+Security
+Augmented Reality
+Virtual Reality
 
 
