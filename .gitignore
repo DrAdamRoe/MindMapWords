@@ -2,3 +2,4 @@
 *.idea/
 print/*
 test/*ps
+.DS_Store
