@@ -6,7 +6,7 @@ import sys
 
 def genSinglePDF(word):
 
-    print("Processsing: %s" % word )
+    #print("Processsing: %s" % word )
 
     # split phrases onto multiple lines, if needed
 
@@ -14,9 +14,9 @@ def genSinglePDF(word):
     secondline=""
 
     #identify need
-    if (len(word) > 22):
+    if (len(word) > 20):
 
-        #print("word: %s splitting needed" % word)
+        print("word: %s splitting needed" % word)
 
         last_space = word.rfind(" ") # find last occurence of blank space
         firstline = word[0:last_space]
