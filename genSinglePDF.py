@@ -27,6 +27,11 @@ def genSinglePDF(word):
         firstline=word
 
 
+    #center a bit better for tiny words.
+    movex = 100
+    if (len(word)<=5):
+        movex = 200
+
     ## start PS string
     out_string="""
 %%!
@@ -34,9 +39,9 @@ def genSinglePDF(word):
 50 scalefont 
 setfont
 90 rotate
-100 -222 moveto
+%i -222 moveto
 (%s) show
-    """ % firstline
+    """ % (movex,firstline)
 
     # add another line, if needed.
     if (secondline!=""):
