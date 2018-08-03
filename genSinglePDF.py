@@ -1,4 +1,5 @@
 # Generate a single A5 Landscape PDF with a word/phrase on it, which has been passed in.
+# lots of postscript love from http://paulbourke.net/dataformats/postscript/
 
 import subprocess
 import sys
@@ -6,6 +7,27 @@ import sys
 def genSinglePDF(word):
 
     print("Processsing: %s" % word )
+
+    # split phrases onto multiple lines, if needed
+
+    firstline=""
+    secondline=""
+
+    #identify need
+    if (len(word) > 20):
+
+        #print("word: %s splitting needed" % word)
+
+        last_space = word.rfind(" ") # find last occurence of blank space
+        firstline = word[0:last_space]
+        secondline = word[last_space:]
+
+        #print("first: %s second %s" % (firstline, secondline))
+    else:
+        firstline=word
+
+
+    ## start PS string
     out_string="""
 %%!
 /Helvetica findfont 
@@ -14,11 +36,22 @@ setfont
 90 rotate
 100 -222 moveto
 (%s) show
+    """ % firstline
 
+    # add another line, if needed.
+    if (secondline!=""):
+        out_string+="""
+114 -282 moveto 
+(%s) show         
+""" % secondline
+
+
+    ## end PS string
+    out_string+="""
 showpage
 
 %%EOF
-    """ % word
+    """
 
     output_file = "print/temp.eps"
     fout = open(output_file, "w")
