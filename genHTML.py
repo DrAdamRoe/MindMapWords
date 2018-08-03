@@ -1,5 +1,6 @@
-def genHTML(words_list):
+# Generate an HTML file with all words passed in, for purposes of easy sharing e.g. using rawgit)
 
+def genHTML(words_list):
 
     out_string="""
     <!DOCTYPE html>

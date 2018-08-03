@@ -1,11 +1,9 @@
+# Generate a single A5 Landscape PDF with a word/phrase on it, which has been passed in.
+
 import subprocess
 import sys
 
-
 def genSinglePDF(word):
-
-
-    #TODO: set size to A5, figure out how to print this..
 
     print("Processsing: %s" % word )
     out_string="""
