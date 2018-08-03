@@ -58,7 +58,7 @@ Byte
 Bit
 Protocols
 API
-HTTP/HTTPS
+HTTP
 IP
 Algorithm
 Complier
@@ -72,3 +72,8 @@ GPL
 MIT License
 Authentication
 Authorization
+Authorization
+Authorization
+
+
+
