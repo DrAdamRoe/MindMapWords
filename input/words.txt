@@ -48,3 +48,27 @@ Artificial Neural Network
 Deep Learning
 Data Science
 Robot
+Automation
+Testing
+IOT
+Frontend
+Backend
+Table
+Byte
+Bit
+Protocols
+API
+HTTP/HTTPS
+IP
+Algorithm
+Complier
+Debugging
+Library
+Linux
+Open Source
+Source Code
+Script
+GPL
+MIT License
+Authentication
+Authorization
