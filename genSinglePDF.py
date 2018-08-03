@@ -14,7 +14,7 @@ def genSinglePDF(word):
     secondline=""
 
     #identify need
-    if (len(word) > 20):
+    if (len(word) > 22):
 
         #print("word: %s splitting needed" % word)
 
@@ -46,7 +46,7 @@ setfont
     # add another line, if needed.
     if (secondline!=""):
         out_string+="""
-114 -282 moveto 
+105 -282 moveto 
 (%s) show         
 """ % secondline
 
